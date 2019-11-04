@@ -14,7 +14,7 @@ def main():
     #game_history dict = {player{chance number : points gained}}
     game_history = {}
 
-    #Names of the player and storing in the game_history dict
+    #Names of the player and storing in the game_history dictt
     print("Please enter below the names of the players:")
     for num in range(1,no_of_players+1):
         player_name = input(("Name of player #{}").format(num))
